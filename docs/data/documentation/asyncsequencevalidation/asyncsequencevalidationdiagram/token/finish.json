@@ -1,0 +1,192 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/AsyncSequenceValidation\/documentation\/AsyncSequenceValidation",
+        "doc:\/\/AsyncSequenceValidation\/documentation\/AsyncSequenceValidation\/AsyncSequenceValidationDiagram",
+        "doc:\/\/AsyncSequenceValidation\/documentation\/AsyncSequenceValidation\/AsyncSequenceValidationDiagram\/Token"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/AsyncSequenceValidation\/documentation\/AsyncSequenceValidation\/AsyncSequenceValidationDiagram\/Token\/finish"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:23AsyncSequenceValidation0abC7DiagramV5TokenO6finishyA2EmF",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "case"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "finish"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "AsyncSequenceValidation"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Case",
+    "symbolKind" : "case",
+    "title" : "AsyncSequenceValidationDiagram.Token.finish"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "case"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "finish"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/token\/finish"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://AsyncSequenceValidation/documentation/AsyncSequenceValidation": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/AsyncSequenceValidation\/documentation\/AsyncSequenceValidation",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "AsyncSequenceValidation",
+  "type" : "topic",
+  "url" : "\/documentation\/asyncsequencevalidation"
+},
+"doc://AsyncSequenceValidation/documentation/AsyncSequenceValidation/AsyncSequenceValidationDiagram": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "AsyncSequenceValidationDiagram"
+    }
+  ],
+  "identifier" : "doc:\/\/AsyncSequenceValidation\/documentation\/AsyncSequenceValidation\/AsyncSequenceValidationDiagram",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "AsyncSequenceValidationDiagram"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "AsyncSequenceValidationDiagram",
+  "type" : "topic",
+  "url" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram"
+},
+"doc://AsyncSequenceValidation/documentation/AsyncSequenceValidation/AsyncSequenceValidationDiagram/Token": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Token"
+    }
+  ],
+  "identifier" : "doc:\/\/AsyncSequenceValidation\/documentation\/AsyncSequenceValidation\/AsyncSequenceValidationDiagram\/Token",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Token"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "AsyncSequenceValidationDiagram.Token",
+  "type" : "topic",
+  "url" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/token"
+},
+"doc://AsyncSequenceValidation/documentation/AsyncSequenceValidation/AsyncSequenceValidationDiagram/Token/finish": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "finish"
+    }
+  ],
+  "identifier" : "doc:\/\/AsyncSequenceValidation\/documentation\/AsyncSequenceValidation\/AsyncSequenceValidationDiagram\/Token\/finish",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "AsyncSequenceValidationDiagram.Token.finish",
+  "type" : "topic",
+  "url" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/token\/finish"
+}
+}
+}

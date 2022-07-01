@@ -1,0 +1,290 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/AsyncSequenceValidation\/documentation\/AsyncSequenceValidation",
+        "doc:\/\/AsyncSequenceValidation\/documentation\/AsyncSequenceValidation\/AsyncSequenceValidationDiagram",
+        "doc:\/\/AsyncSequenceValidation\/documentation\/AsyncSequenceValidation\/AsyncSequenceValidationDiagram\/ExpectationFailure",
+        "doc:\/\/AsyncSequenceValidation\/documentation\/AsyncSequenceValidation\/AsyncSequenceValidationDiagram\/ExpectationFailure\/Kind-swift.enum"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/AsyncSequenceValidation\/documentation\/AsyncSequenceValidation\/AsyncSequenceValidationDiagram\/ExpectationFailure\/Kind-swift.enum\/expectedMismatch(_:_:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:23AsyncSequenceValidation0abC7DiagramV18ExpectationFailureV4KindO16expectedMismatchyAGSS_SStcAGmF",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "case"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "expectedMismatch"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:SS",
+        "text" : "String"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:SS",
+        "text" : "String"
+      },
+      {
+        "kind" : "text",
+        "text" : ")"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "AsyncSequenceValidation"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Case",
+    "symbolKind" : "case",
+    "title" : "AsyncSequenceValidationDiagram.ExpectationFailure.Kind.expectedMismatch(_:_:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "case"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "expectedMismatch"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:SS",
+              "text" : "String"
+            },
+            {
+              "kind" : "text",
+              "text" : ", "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:SS",
+              "text" : "String"
+            },
+            {
+              "kind" : "text",
+              "text" : ")"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/expectationfailure\/kind-swift.enum\/expectedmismatch(_:_:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://AsyncSequenceValidation/documentation/AsyncSequenceValidation": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/AsyncSequenceValidation\/documentation\/AsyncSequenceValidation",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "AsyncSequenceValidation",
+  "type" : "topic",
+  "url" : "\/documentation\/asyncsequencevalidation"
+},
+"doc://AsyncSequenceValidation/documentation/AsyncSequenceValidation/AsyncSequenceValidationDiagram": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "AsyncSequenceValidationDiagram"
+    }
+  ],
+  "identifier" : "doc:\/\/AsyncSequenceValidation\/documentation\/AsyncSequenceValidation\/AsyncSequenceValidationDiagram",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "AsyncSequenceValidationDiagram"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "AsyncSequenceValidationDiagram",
+  "type" : "topic",
+  "url" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram"
+},
+"doc://AsyncSequenceValidation/documentation/AsyncSequenceValidation/AsyncSequenceValidationDiagram/ExpectationFailure": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ExpectationFailure"
+    }
+  ],
+  "identifier" : "doc:\/\/AsyncSequenceValidation\/documentation\/AsyncSequenceValidation\/AsyncSequenceValidationDiagram\/ExpectationFailure",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ExpectationFailure"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "AsyncSequenceValidationDiagram.ExpectationFailure",
+  "type" : "topic",
+  "url" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/expectationfailure"
+},
+"doc://AsyncSequenceValidation/documentation/AsyncSequenceValidation/AsyncSequenceValidationDiagram/ExpectationFailure/Kind-swift.enum": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Kind"
+    }
+  ],
+  "identifier" : "doc:\/\/AsyncSequenceValidation\/documentation\/AsyncSequenceValidation\/AsyncSequenceValidationDiagram\/ExpectationFailure\/Kind-swift.enum",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Kind"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "AsyncSequenceValidationDiagram.ExpectationFailure.Kind",
+  "type" : "topic",
+  "url" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/expectationfailure\/kind-swift.enum"
+},
+"doc://AsyncSequenceValidation/documentation/AsyncSequenceValidation/AsyncSequenceValidationDiagram/ExpectationFailure/Kind-swift.enum/expectedMismatch(_:_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "expectedMismatch"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/AsyncSequenceValidation\/documentation\/AsyncSequenceValidation\/AsyncSequenceValidationDiagram\/ExpectationFailure\/Kind-swift.enum\/expectedMismatch(_:_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "AsyncSequenceValidationDiagram.ExpectationFailure.Kind.expectedMismatch(_:_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/expectationfailure\/kind-swift.enum\/expectedmismatch(_:_:)"
+}
+}
+}

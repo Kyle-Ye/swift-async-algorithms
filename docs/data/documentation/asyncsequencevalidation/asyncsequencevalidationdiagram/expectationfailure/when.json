@@ -1,0 +1,338 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/AsyncSequenceValidation\/documentation\/AsyncSequenceValidation",
+        "doc:\/\/AsyncSequenceValidation\/documentation\/AsyncSequenceValidation\/AsyncSequenceValidationDiagram",
+        "doc:\/\/AsyncSequenceValidation\/documentation\/AsyncSequenceValidation\/AsyncSequenceValidationDiagram\/ExpectationFailure"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/AsyncSequenceValidation\/documentation\/AsyncSequenceValidation\/AsyncSequenceValidationDiagram\/ExpectationFailure\/when"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:23AsyncSequenceValidation0abC7DiagramV18ExpectationFailureV4whenAC5ClockV7InstantVvp",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "var"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "when"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:23AsyncSequenceValidation0abC7DiagramV",
+        "text" : "AsyncSequenceValidationDiagram"
+      },
+      {
+        "kind" : "text",
+        "text" : "."
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:23AsyncSequenceValidation0abC7DiagramV5ClockV",
+        "text" : "Clock"
+      },
+      {
+        "kind" : "text",
+        "text" : "."
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:23AsyncSequenceValidation0abC7DiagramV5ClockV7InstantV",
+        "text" : "Instant"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "AsyncSequenceValidation"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Property",
+    "symbolKind" : "property",
+    "title" : "when"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "var"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "when"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "identifier" : "doc:\/\/AsyncSequenceValidation\/documentation\/AsyncSequenceValidation\/AsyncSequenceValidationDiagram",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:23AsyncSequenceValidation0abC7DiagramV",
+              "text" : "AsyncSequenceValidationDiagram"
+            },
+            {
+              "kind" : "text",
+              "text" : "."
+            },
+            {
+              "identifier" : "doc:\/\/AsyncSequenceValidation\/documentation\/AsyncSequenceValidation\/AsyncSequenceValidationDiagram\/Clock-swift.struct",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:23AsyncSequenceValidation0abC7DiagramV5ClockV",
+              "text" : "Clock"
+            },
+            {
+              "kind" : "text",
+              "text" : "."
+            },
+            {
+              "identifier" : "doc:\/\/AsyncSequenceValidation\/documentation\/AsyncSequenceValidation\/AsyncSequenceValidationDiagram\/Clock-swift.struct\/Instant",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:23AsyncSequenceValidation0abC7DiagramV5ClockV7InstantV",
+              "text" : "Instant"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/expectationfailure\/when"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://AsyncSequenceValidation/documentation/AsyncSequenceValidation": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/AsyncSequenceValidation\/documentation\/AsyncSequenceValidation",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "AsyncSequenceValidation",
+  "type" : "topic",
+  "url" : "\/documentation\/asyncsequencevalidation"
+},
+"doc://AsyncSequenceValidation/documentation/AsyncSequenceValidation/AsyncSequenceValidationDiagram": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "AsyncSequenceValidationDiagram"
+    }
+  ],
+  "identifier" : "doc:\/\/AsyncSequenceValidation\/documentation\/AsyncSequenceValidation\/AsyncSequenceValidationDiagram",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "AsyncSequenceValidationDiagram"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "AsyncSequenceValidationDiagram",
+  "type" : "topic",
+  "url" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram"
+},
+"doc://AsyncSequenceValidation/documentation/AsyncSequenceValidation/AsyncSequenceValidationDiagram/Clock-swift.struct": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Clock"
+    }
+  ],
+  "identifier" : "doc:\/\/AsyncSequenceValidation\/documentation\/AsyncSequenceValidation\/AsyncSequenceValidationDiagram\/Clock-swift.struct",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Clock"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "AsyncSequenceValidationDiagram.Clock",
+  "type" : "topic",
+  "url" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/clock-swift.struct"
+},
+"doc://AsyncSequenceValidation/documentation/AsyncSequenceValidation/AsyncSequenceValidationDiagram/Clock-swift.struct/Instant": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Instant"
+    }
+  ],
+  "identifier" : "doc:\/\/AsyncSequenceValidation\/documentation\/AsyncSequenceValidation\/AsyncSequenceValidationDiagram\/Clock-swift.struct\/Instant",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Instant"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "AsyncSequenceValidationDiagram.Clock.Instant",
+  "type" : "topic",
+  "url" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/clock-swift.struct\/instant"
+},
+"doc://AsyncSequenceValidation/documentation/AsyncSequenceValidation/AsyncSequenceValidationDiagram/ExpectationFailure": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ExpectationFailure"
+    }
+  ],
+  "identifier" : "doc:\/\/AsyncSequenceValidation\/documentation\/AsyncSequenceValidation\/AsyncSequenceValidationDiagram\/ExpectationFailure",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ExpectationFailure"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "AsyncSequenceValidationDiagram.ExpectationFailure",
+  "type" : "topic",
+  "url" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/expectationfailure"
+},
+"doc://AsyncSequenceValidation/documentation/AsyncSequenceValidation/AsyncSequenceValidationDiagram/ExpectationFailure/when": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "when"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:23AsyncSequenceValidation0abC7DiagramV",
+      "text" : "AsyncSequenceValidationDiagram"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:23AsyncSequenceValidation0abC7DiagramV5ClockV",
+      "text" : "Clock"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:23AsyncSequenceValidation0abC7DiagramV5ClockV7InstantV",
+      "text" : "Instant"
+    }
+  ],
+  "identifier" : "doc:\/\/AsyncSequenceValidation\/documentation\/AsyncSequenceValidation\/AsyncSequenceValidationDiagram\/ExpectationFailure\/when",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "when",
+  "type" : "topic",
+  "url" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/expectationfailure\/when"
+}
+}
+}

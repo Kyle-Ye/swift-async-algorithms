@@ -1,0 +1,213 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/AsyncSequenceValidation\/documentation\/AsyncSequenceValidation"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/AsyncSequenceValidation\/documentation\/AsyncSequenceValidation\/SourceFailure"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:23AsyncSequenceValidation13SourceFailureP",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "protocol"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "SourceFailure"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "AsyncSequenceValidation"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "SourceFailure"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Protocol",
+    "symbolKind" : "protocol",
+    "title" : "SourceFailure"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "protocol"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "SourceFailure"
+            },
+            {
+              "kind" : "text",
+              "text" : " : "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:s5ErrorP",
+              "text" : "Error"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/AsyncSequenceValidation\/s5ErrorP",
+        "doc:\/\/AsyncSequenceValidation\/s8SendableP"
+      ],
+      "kind" : "relationships",
+      "title" : "Inherits From",
+      "type" : "inheritsFrom"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/AsyncSequenceValidation\/documentation\/AsyncSequenceValidation\/SourceFailure\/location"
+      ],
+      "title" : "Instance Properties"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/asyncsequencevalidation\/sourcefailure"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://AsyncSequenceValidation/documentation/AsyncSequenceValidation": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/AsyncSequenceValidation\/documentation\/AsyncSequenceValidation",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "AsyncSequenceValidation",
+  "type" : "topic",
+  "url" : "\/documentation\/asyncsequencevalidation"
+},
+"doc://AsyncSequenceValidation/documentation/AsyncSequenceValidation/SourceFailure": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SourceFailure"
+    }
+  ],
+  "identifier" : "doc:\/\/AsyncSequenceValidation\/documentation\/AsyncSequenceValidation\/SourceFailure",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SourceFailure"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SourceFailure",
+  "type" : "topic",
+  "url" : "\/documentation\/asyncsequencevalidation\/sourcefailure"
+},
+"doc://AsyncSequenceValidation/documentation/AsyncSequenceValidation/SourceFailure/location": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "location"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:23AsyncSequenceValidation14SourceLocationV",
+      "text" : "SourceLocation"
+    }
+  ],
+  "identifier" : "doc:\/\/AsyncSequenceValidation\/documentation\/AsyncSequenceValidation\/SourceFailure\/location",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "location",
+  "type" : "topic",
+  "url" : "\/documentation\/asyncsequencevalidation\/sourcefailure\/location"
+},
+"doc://AsyncSequenceValidation/s5ErrorP": {
+  "identifier" : "doc:\/\/AsyncSequenceValidation\/s5ErrorP",
+  "title" : "Swift.Error",
+  "type" : "unresolvable"
+},
+"doc://AsyncSequenceValidation/s8SendableP": {
+  "identifier" : "doc:\/\/AsyncSequenceValidation\/s8SendableP",
+  "title" : "Swift.Sendable",
+  "type" : "unresolvable"
+}
+}
+}

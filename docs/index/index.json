@@ -1,0 +1,1775 @@
+{
+  "interfaceLanguages" : {
+    "swift" : [
+      {
+        "children" : [
+          {
+            "title" : "Getting Started",
+            "type" : "groupMarker"
+          },
+          {
+            "path" : "\/documentation\/asyncsequencevalidation\/validation",
+            "title" : "AsyncSequence Validation",
+            "type" : "article"
+          },
+          {
+            "title" : "Protocols",
+            "type" : "groupMarker"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationtest\/inputs",
+                "title" : "var inputs: [AsyncSequenceValidationDiagram.Specification]",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationtest\/output",
+                "title" : "var output: AsyncSequenceValidationDiagram.Specification",
+                "type" : "property"
+              },
+              {
+                "title" : "Instance Methods",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationtest\/test(with:activeticks:output:_:)",
+                "title" : "func test<C>(with: C, activeTicks: [C.Instant], output: AsyncSequenceValidationDiagram.Specification, (String) -> Void) async throws",
+                "type" : "method"
+              }
+            ],
+            "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationtest",
+            "title" : "AsyncSequenceValidationTest",
+            "type" : "protocol"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Instance Methods",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationtheme\/description(for:)",
+                "title" : "func description(for: AsyncSequenceValidationDiagram.Token) -> String",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationtheme\/token(_:invalue:)",
+                "title" : "func token(Character, inValue: Bool) -> AsyncSequenceValidationDiagram.Token",
+                "type" : "method"
+              },
+              {
+                "title" : "Type Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationtheme\/ascii",
+                "title" : "static var ascii: AsyncSequenceValidationDiagram.ASCIITheme",
+                "type" : "property"
+              }
+            ],
+            "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationtheme",
+            "title" : "AsyncSequenceValidationTheme",
+            "type" : "protocol"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/asyncsequencevalidation\/sourcefailure\/location",
+                "title" : "var location: SourceLocation",
+                "type" : "property"
+              }
+            ],
+            "path" : "\/documentation\/asyncsequencevalidation\/sourcefailure",
+            "title" : "SourceFailure",
+            "type" : "protocol"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Associated Types",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/asyncsequencevalidation\/testclock\/instant",
+                "title" : "Instant",
+                "type" : "associatedtype"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/asyncsequencevalidation\/testclock\/now",
+                "title" : "var now: Self.Instant",
+                "type" : "property"
+              },
+              {
+                "title" : "Instance Methods",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/asyncsequencevalidation\/testclock\/sleep(until:tolerance:)",
+                "title" : "func sleep(until: Self.Instant, tolerance: Self.Instant.Duration?) async throws",
+                "type" : "method"
+              }
+            ],
+            "path" : "\/documentation\/asyncsequencevalidation\/testclock",
+            "title" : "TestClock",
+            "type" : "protocol"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Associated Types",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/asyncsequencevalidation\/testinstant\/duration",
+                "title" : "Duration",
+                "type" : "associatedtype"
+              }
+            ],
+            "path" : "\/documentation\/asyncsequencevalidation\/testinstant",
+            "title" : "TestInstant",
+            "type" : "protocol"
+          },
+          {
+            "title" : "Structures",
+            "type" : "groupMarker"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Structures",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Instance Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/asciitheme\/description(for:)",
+                    "title" : "func description(for: AsyncSequenceValidationDiagram.Token) -> String",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/asciitheme\/token(_:invalue:)",
+                    "title" : "func token(Character, inValue: Bool) -> AsyncSequenceValidationDiagram.Token",
+                    "type" : "method"
+                  },
+                  {
+                    "title" : "Default Implementations",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Type Properties",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/asciitheme\/ascii",
+                        "title" : "static var ascii: AsyncSequenceValidationDiagram.ASCIITheme",
+                        "type" : "property"
+                      }
+                    ],
+                    "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/asciitheme\/asyncsequencevalidationtheme-implementations",
+                    "title" : "AsyncSequenceValidationTheme Implementations",
+                    "type" : "symbol"
+                  }
+                ],
+                "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/asciitheme",
+                "title" : "AsyncSequenceValidationDiagram.ASCIITheme",
+                "type" : "struct"
+              },
+              {
+                "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/accumulatedinputs",
+                "title" : "AsyncSequenceValidationDiagram.AccumulatedInputs",
+                "type" : "struct"
+              },
+              {
+                "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/accumulatedinputswithoperation",
+                "title" : "AsyncSequenceValidationDiagram.AccumulatedInputsWithOperation",
+                "type" : "struct"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Structures",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Operators",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/clock-swift.struct\/step\/(_:_:)-10oyd",
+                        "title" : "static func \/ (AsyncSequenceValidationDiagram.Clock.Step, Int) -> AsyncSequenceValidationDiagram.Clock.Step",
+                        "type" : "op"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/clock-swift.struct\/step\/(_:_:)-5wko7",
+                        "title" : "static func \/ (AsyncSequenceValidationDiagram.Clock.Step, AsyncSequenceValidationDiagram.Clock.Step) -> Double",
+                        "type" : "op"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/clock-swift.struct\/step\/*(_:_:)",
+                        "title" : "static func * (AsyncSequenceValidationDiagram.Clock.Step, Int) -> AsyncSequenceValidationDiagram.Clock.Step",
+                        "type" : "op"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/clock-swift.struct\/step\/+(_:_:)",
+                        "title" : "static func + (AsyncSequenceValidationDiagram.Clock.Step, AsyncSequenceValidationDiagram.Clock.Step) -> AsyncSequenceValidationDiagram.Clock.Step",
+                        "type" : "op"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/clock-swift.struct\/step\/-(_:_:)",
+                        "title" : "static func - (AsyncSequenceValidationDiagram.Clock.Step, AsyncSequenceValidationDiagram.Clock.Step) -> AsyncSequenceValidationDiagram.Clock.Step",
+                        "type" : "op"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/clock-swift.struct\/step\/_(_:_:)-4s47h",
+                        "title" : "static func < (AsyncSequenceValidationDiagram.Clock.Step, AsyncSequenceValidationDiagram.Clock.Step) -> Bool",
+                        "type" : "op"
+                      },
+                      {
+                        "title" : "Instance Properties",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/clock-swift.struct\/step\/description",
+                        "title" : "var description: String",
+                        "type" : "property"
+                      },
+                      {
+                        "title" : "Type Properties",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/clock-swift.struct\/step\/zero",
+                        "title" : "static var zero: AsyncSequenceValidationDiagram.Clock.Step",
+                        "type" : "property"
+                      },
+                      {
+                        "title" : "Type Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/clock-swift.struct\/step\/steps(_:)",
+                        "title" : "static func steps(Int) -> AsyncSequenceValidationDiagram.Clock.Step",
+                        "type" : "method"
+                      },
+                      {
+                        "title" : "Default Implementations",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "children" : [
+                          {
+                            "title" : "Operators",
+                            "type" : "groupMarker"
+                          },
+                          {
+                            "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/clock-swift.struct\/step\/'...(_:)-4om9d",
+                            "title" : "static func ... (Self) -> PartialRangeThrough<Self>",
+                            "type" : "op"
+                          },
+                          {
+                            "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/clock-swift.struct\/step\/'...(_:)-9ls1o",
+                            "title" : "static func ... (Self) -> PartialRangeFrom<Self>",
+                            "type" : "op"
+                          },
+                          {
+                            "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/clock-swift.struct\/step\/'...(_:_:)",
+                            "title" : "static func ... (Self, Self) -> ClosedRange<Self>",
+                            "type" : "op"
+                          },
+                          {
+                            "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/clock-swift.struct\/step\/'.._(_:)",
+                            "title" : "static func ..< (Self) -> PartialRangeUpTo<Self>",
+                            "type" : "op"
+                          },
+                          {
+                            "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/clock-swift.struct\/step\/'.._(_:_:)",
+                            "title" : "static func ..< (Self, Self) -> Range<Self>",
+                            "type" : "op"
+                          }
+                        ],
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/clock-swift.struct\/step\/-implementations",
+                        "title" : " Implementations",
+                        "type" : "symbol"
+                      },
+                      {
+                        "children" : [
+                          {
+                            "title" : "Operators",
+                            "type" : "groupMarker"
+                          },
+                          {
+                            "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/clock-swift.struct\/step\/'...(_:)-4om9d",
+                            "title" : "static func ... (Self) -> PartialRangeThrough<Self>",
+                            "type" : "op"
+                          },
+                          {
+                            "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/clock-swift.struct\/step\/'...(_:)-9ls1o",
+                            "title" : "static func ... (Self) -> PartialRangeFrom<Self>",
+                            "type" : "op"
+                          },
+                          {
+                            "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/clock-swift.struct\/step\/'...(_:_:)",
+                            "title" : "static func ... (Self, Self) -> ClosedRange<Self>",
+                            "type" : "op"
+                          },
+                          {
+                            "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/clock-swift.struct\/step\/'.._(_:)",
+                            "title" : "static func ..< (Self) -> PartialRangeUpTo<Self>",
+                            "type" : "op"
+                          },
+                          {
+                            "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/clock-swift.struct\/step\/'.._(_:_:)",
+                            "title" : "static func ..< (Self, Self) -> Range<Self>",
+                            "type" : "op"
+                          }
+                        ],
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/clock-swift.struct\/step\/-implementations",
+                        "title" : " Implementations",
+                        "type" : "symbol"
+                      },
+                      {
+                        "children" : [
+                          {
+                            "title" : "Operators",
+                            "type" : "groupMarker"
+                          },
+                          {
+                            "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/clock-swift.struct\/step\/+(_:)",
+                            "title" : "static func + (Self) -> Self",
+                            "type" : "op"
+                          },
+                          {
+                            "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/clock-swift.struct\/step\/+=(_:_:)",
+                            "title" : "static func += (inout Self, Self)",
+                            "type" : "op"
+                          },
+                          {
+                            "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/clock-swift.struct\/step\/-=(_:_:)",
+                            "title" : "static func -= (inout Self, Self)",
+                            "type" : "op"
+                          }
+                        ],
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/clock-swift.struct\/step\/additivearithmetic-implementations",
+                        "title" : "AdditiveArithmetic Implementations",
+                        "type" : "symbol"
+                      },
+                      {
+                        "children" : [
+                          {
+                            "title" : "Operators",
+                            "type" : "groupMarker"
+                          },
+                          {
+                            "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/clock-swift.struct\/step\/_(_:_:)-97xuf",
+                            "title" : "static func > (Self, Self) -> Bool",
+                            "type" : "op"
+                          },
+                          {
+                            "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/clock-swift.struct\/step\/_=(_:_:)-4pr2k",
+                            "title" : "static func <= (Self, Self) -> Bool",
+                            "type" : "op"
+                          },
+                          {
+                            "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/clock-swift.struct\/step\/_=(_:_:)-8fjdn",
+                            "title" : "static func >= (Self, Self) -> Bool",
+                            "type" : "op"
+                          }
+                        ],
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/clock-swift.struct\/step\/comparable-implementations",
+                        "title" : "Comparable Implementations",
+                        "type" : "symbol"
+                      },
+                      {
+                        "children" : [
+                          {
+                            "title" : "Operators",
+                            "type" : "groupMarker"
+                          },
+                          {
+                            "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/clock-swift.struct\/step\/*=(_:_:)",
+                            "title" : "static func *= (inout Self, Int)",
+                            "type" : "op"
+                          },
+                          {
+                            "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/clock-swift.struct\/step\/=(_:_:)",
+                            "title" : "static func \/= (inout Self, Int)",
+                            "type" : "op"
+                          }
+                        ],
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/clock-swift.struct\/step\/durationprotocol-implementations",
+                        "title" : "DurationProtocol Implementations",
+                        "type" : "symbol"
+                      },
+                      {
+                        "children" : [
+                          {
+                            "title" : "Operators",
+                            "type" : "groupMarker"
+                          },
+                          {
+                            "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/clock-swift.struct\/step\/!=(_:_:)",
+                            "title" : "static func != (Self, Self) -> Bool",
+                            "type" : "op"
+                          }
+                        ],
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/clock-swift.struct\/step\/equatable-implementations",
+                        "title" : "Equatable Implementations",
+                        "type" : "symbol"
+                      }
+                    ],
+                    "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/clock-swift.struct\/step",
+                    "title" : "AsyncSequenceValidationDiagram.Clock.Step",
+                    "type" : "struct"
+                  },
+                  {
+                    "title" : "Default Implementations",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Structures",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "children" : [
+                          {
+                            "title" : "Operators",
+                            "type" : "groupMarker"
+                          },
+                          {
+                            "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/clock-swift.struct\/instant\/_(_:_:)-8aly",
+                            "title" : "static func < (AsyncSequenceValidationDiagram.Clock.Instant, AsyncSequenceValidationDiagram.Clock.Instant) -> Bool",
+                            "type" : "op"
+                          },
+                          {
+                            "title" : "Instance Properties",
+                            "type" : "groupMarker"
+                          },
+                          {
+                            "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/clock-swift.struct\/instant\/description",
+                            "title" : "var description: String",
+                            "type" : "property"
+                          },
+                          {
+                            "title" : "Instance Methods",
+                            "type" : "groupMarker"
+                          },
+                          {
+                            "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/clock-swift.struct\/instant\/advanced(by:)",
+                            "title" : "func advanced(by: AsyncSequenceValidationDiagram.Clock.Step) -> AsyncSequenceValidationDiagram.Clock.Instant",
+                            "type" : "method"
+                          },
+                          {
+                            "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/clock-swift.struct\/instant\/duration(to:)",
+                            "title" : "func duration(to: AsyncSequenceValidationDiagram.Clock.Instant) -> AsyncSequenceValidationDiagram.Clock.Step",
+                            "type" : "method"
+                          },
+                          {
+                            "title" : "Type Aliases",
+                            "type" : "groupMarker"
+                          },
+                          {
+                            "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/clock-swift.struct\/instant\/duration",
+                            "title" : "AsyncSequenceValidationDiagram.Clock.Instant.Duration",
+                            "type" : "typealias"
+                          },
+                          {
+                            "title" : "Default Implementations",
+                            "type" : "groupMarker"
+                          },
+                          {
+                            "children" : [
+                              {
+                                "title" : "Operators",
+                                "type" : "groupMarker"
+                              },
+                              {
+                                "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/clock-swift.struct\/instant\/'...(_:)-2ywn4",
+                                "title" : "static func ... (Self) -> PartialRangeThrough<Self>",
+                                "type" : "op"
+                              },
+                              {
+                                "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/clock-swift.struct\/instant\/'...(_:)-4owjh",
+                                "title" : "static func ... (Self) -> PartialRangeFrom<Self>",
+                                "type" : "op"
+                              },
+                              {
+                                "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/clock-swift.struct\/instant\/'...(_:_:)",
+                                "title" : "static func ... (Self, Self) -> ClosedRange<Self>",
+                                "type" : "op"
+                              },
+                              {
+                                "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/clock-swift.struct\/instant\/'.._(_:)",
+                                "title" : "static func ..< (Self) -> PartialRangeUpTo<Self>",
+                                "type" : "op"
+                              },
+                              {
+                                "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/clock-swift.struct\/instant\/'.._(_:_:)",
+                                "title" : "static func ..< (Self, Self) -> Range<Self>",
+                                "type" : "op"
+                              }
+                            ],
+                            "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/clock-swift.struct\/instant\/-implementations",
+                            "title" : " Implementations",
+                            "type" : "symbol"
+                          },
+                          {
+                            "children" : [
+                              {
+                                "title" : "Operators",
+                                "type" : "groupMarker"
+                              },
+                              {
+                                "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/clock-swift.struct\/instant\/'...(_:)-2ywn4",
+                                "title" : "static func ... (Self) -> PartialRangeThrough<Self>",
+                                "type" : "op"
+                              },
+                              {
+                                "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/clock-swift.struct\/instant\/'...(_:)-4owjh",
+                                "title" : "static func ... (Self) -> PartialRangeFrom<Self>",
+                                "type" : "op"
+                              },
+                              {
+                                "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/clock-swift.struct\/instant\/'...(_:_:)",
+                                "title" : "static func ... (Self, Self) -> ClosedRange<Self>",
+                                "type" : "op"
+                              },
+                              {
+                                "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/clock-swift.struct\/instant\/'.._(_:)",
+                                "title" : "static func ..< (Self) -> PartialRangeUpTo<Self>",
+                                "type" : "op"
+                              },
+                              {
+                                "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/clock-swift.struct\/instant\/'.._(_:_:)",
+                                "title" : "static func ..< (Self, Self) -> Range<Self>",
+                                "type" : "op"
+                              }
+                            ],
+                            "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/clock-swift.struct\/instant\/-implementations",
+                            "title" : " Implementations",
+                            "type" : "symbol"
+                          },
+                          {
+                            "children" : [
+                              {
+                                "title" : "Operators",
+                                "type" : "groupMarker"
+                              },
+                              {
+                                "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/clock-swift.struct\/instant\/_(_:_:)-2rkpd",
+                                "title" : "static func > (Self, Self) -> Bool",
+                                "type" : "op"
+                              },
+                              {
+                                "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/clock-swift.struct\/instant\/_=(_:_:)-1hk9r",
+                                "title" : "static func <= (Self, Self) -> Bool",
+                                "type" : "op"
+                              },
+                              {
+                                "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/clock-swift.struct\/instant\/_=(_:_:)-4yvsu",
+                                "title" : "static func >= (Self, Self) -> Bool",
+                                "type" : "op"
+                              }
+                            ],
+                            "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/clock-swift.struct\/instant\/comparable-implementations",
+                            "title" : "Comparable Implementations",
+                            "type" : "symbol"
+                          },
+                          {
+                            "children" : [
+                              {
+                                "title" : "Operators",
+                                "type" : "groupMarker"
+                              },
+                              {
+                                "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/clock-swift.struct\/instant\/!=(_:_:)",
+                                "title" : "static func != (Self, Self) -> Bool",
+                                "type" : "op"
+                              }
+                            ],
+                            "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/clock-swift.struct\/instant\/equatable-implementations",
+                            "title" : "Equatable Implementations",
+                            "type" : "symbol"
+                          }
+                        ],
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/clock-swift.struct\/instant",
+                        "title" : "AsyncSequenceValidationDiagram.Clock.Instant",
+                        "type" : "struct"
+                      },
+                      {
+                        "title" : "Instance Properties",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/clock-swift.struct\/minimumresolution",
+                        "title" : "var minimumResolution: AsyncSequenceValidationDiagram.Clock.Step",
+                        "type" : "property"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/clock-swift.struct\/now",
+                        "title" : "var now: AsyncSequenceValidationDiagram.Clock.Instant",
+                        "type" : "property"
+                      },
+                      {
+                        "title" : "Instance Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/clock-swift.struct\/measure(_:)",
+                        "title" : "func measure(() throws -> Void) rethrows -> Self.Instant.Duration",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/clock-swift.struct\/sleep(until:tolerance:)",
+                        "title" : "func sleep(until: AsyncSequenceValidationDiagram.Clock.Instant, tolerance: AsyncSequenceValidationDiagram.Clock.Step?) async throws",
+                        "type" : "method"
+                      }
+                    ],
+                    "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/clock-swift.struct\/clock-implementations",
+                    "title" : "Clock Implementations",
+                    "type" : "symbol"
+                  }
+                ],
+                "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/clock-swift.struct",
+                "title" : "AsyncSequenceValidationDiagram.Clock",
+                "type" : "struct"
+              },
+              {
+                "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/component",
+                "title" : "AsyncSequenceValidationDiagram.Component",
+                "type" : "struct"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/expectationfailure\/description",
+                    "title" : "var description: String",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/expectationfailure\/index",
+                    "title" : "var index: String.Index?",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/expectationfailure\/kind-swift.property",
+                    "title" : "var kind: AsyncSequenceValidationDiagram.ExpectationFailure.Kind",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/expectationfailure\/specification",
+                    "title" : "var specification: AsyncSequenceValidationDiagram.Specification?",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/expectationfailure\/when",
+                    "title" : "var when: AsyncSequenceValidationDiagram.Clock.Instant",
+                    "type" : "property"
+                  },
+                  {
+                    "title" : "Enumerations",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Enumeration Cases",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/expectationfailure\/kind-swift.enum\/expectedfailure(_:)",
+                        "title" : "case expectedFailure(Error)",
+                        "type" : "case"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/expectationfailure\/kind-swift.enum\/expectedfailurebutgotfinish(_:)",
+                        "title" : "case expectedFailureButGotFinish(Error)",
+                        "type" : "case"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/expectationfailure\/kind-swift.enum\/expectedfailurebutgotvalue(_:_:)",
+                        "title" : "case expectedFailureButGotValue(Error, String)",
+                        "type" : "case"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/expectationfailure\/kind-swift.enum\/expectedfinish",
+                        "title" : "case expectedFinish",
+                        "type" : "case"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/expectationfailure\/kind-swift.enum\/expectedfinishbutgotfailure(_:)",
+                        "title" : "case expectedFinishButGotFailure(Error)",
+                        "type" : "case"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/expectationfailure\/kind-swift.enum\/expectedfinishbutgotvalue(_:)",
+                        "title" : "case expectedFinishButGotValue(String)",
+                        "type" : "case"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/expectationfailure\/kind-swift.enum\/expectedmismatch(_:_:)",
+                        "title" : "case expectedMismatch(String, String)",
+                        "type" : "case"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/expectationfailure\/kind-swift.enum\/expectedvalue(_:)",
+                        "title" : "case expectedValue(String)",
+                        "type" : "case"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/expectationfailure\/kind-swift.enum\/expectedvaluebutgotfailure(_:_:)",
+                        "title" : "case expectedValueButGotFailure(String, Error)",
+                        "type" : "case"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/expectationfailure\/kind-swift.enum\/expectedvaluebutgotfinished(_:)",
+                        "title" : "case expectedValueButGotFinished(String)",
+                        "type" : "case"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/expectationfailure\/kind-swift.enum\/specificationviolationgotfailureafteriteration(_:)",
+                        "title" : "case specificationViolationGotFailureAfterIteration(Error)",
+                        "type" : "case"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/expectationfailure\/kind-swift.enum\/specificationviolationgotvalueafteriteration(_:)",
+                        "title" : "case specificationViolationGotValueAfterIteration(String)",
+                        "type" : "case"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/expectationfailure\/kind-swift.enum\/unexpectedfailure(_:)",
+                        "title" : "case unexpectedFailure(Error)",
+                        "type" : "case"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/expectationfailure\/kind-swift.enum\/unexpectedfinish",
+                        "title" : "case unexpectedFinish",
+                        "type" : "case"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/expectationfailure\/kind-swift.enum\/unexpectedvalue(_:)",
+                        "title" : "case unexpectedValue(String)",
+                        "type" : "case"
+                      }
+                    ],
+                    "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/expectationfailure\/kind-swift.enum",
+                    "title" : "AsyncSequenceValidationDiagram.ExpectationFailure.Kind",
+                    "type" : "enum"
+                  }
+                ],
+                "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/expectationfailure",
+                "title" : "AsyncSequenceValidationDiagram.ExpectationFailure",
+                "type" : "struct"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Structures",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Instance Properties",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/expectationresult\/event\/offset",
+                        "title" : "var offset: String.Index",
+                        "type" : "property"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/expectationresult\/event\/result",
+                        "title" : "var result: Result<String?, Error>",
+                        "type" : "property"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/expectationresult\/event\/when",
+                        "title" : "var when: AsyncSequenceValidationDiagram.Clock.Instant",
+                        "type" : "property"
+                      }
+                    ],
+                    "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/expectationresult\/event",
+                    "title" : "AsyncSequenceValidationDiagram.ExpectationResult.Event",
+                    "type" : "struct"
+                  },
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/expectationresult\/actual",
+                    "title" : "var actual: [(AsyncSequenceValidationDiagram.Clock.Instant, Result<String?, Error>)]",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/expectationresult\/expected",
+                    "title" : "var expected: [AsyncSequenceValidationDiagram.ExpectationResult.Event]",
+                    "type" : "property"
+                  },
+                  {
+                    "title" : "Instance Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/expectationresult\/reconstituteactual(theme:)",
+                    "title" : "func reconstituteActual<Theme>(theme: Theme) -> String",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/expectationresult\/reconstituteexpected(theme:)",
+                    "title" : "func reconstituteExpected<Theme>(theme: Theme) -> String",
+                    "type" : "method"
+                  }
+                ],
+                "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/expectationresult",
+                "title" : "AsyncSequenceValidationDiagram.ExpectationResult",
+                "type" : "struct"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Structures",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Instance Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/input\/iterator\/next()",
+                        "title" : "func next() async throws -> AsyncSequenceValidationDiagram.Input.Element?",
+                        "type" : "method"
+                      }
+                    ],
+                    "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/input\/iterator",
+                    "title" : "AsyncSequenceValidationDiagram.Input.Iterator",
+                    "type" : "struct"
+                  },
+                  {
+                    "title" : "Instance Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/input\/makeasynciterator()",
+                    "title" : "func makeAsyncIterator() -> AsyncSequenceValidationDiagram.Input.Iterator",
+                    "type" : "method"
+                  },
+                  {
+                    "title" : "Type Aliases",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/input\/element",
+                    "title" : "AsyncSequenceValidationDiagram.Input.Element",
+                    "type" : "typealias"
+                  },
+                  {
+                    "title" : "Default Implementations",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Instance Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/input\/adjacentpairs()",
+                        "title" : "func adjacentPairs() -> AsyncAdjacentPairsSequence<Self>",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/input\/allsatisfy(_:)",
+                        "title" : "func allSatisfy((Self.Element) async throws -> Bool) async rethrows -> Bool",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/input\/buffer(_:)",
+                        "title" : "func buffer<Buffer>(() -> Buffer) -> AsyncBufferSequence<Self, Buffer>",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/input\/buffer(policy:)",
+                        "title" : "func buffer(policy: AsyncLimitBuffer<Self.Element>.Policy) -> AsyncBufferSequence<Self, AsyncLimitBuffer<Self.Element>>",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/input\/chunked(by:)",
+                        "title" : "func chunked(by: (Self.Element, Self.Element) -> Bool) -> AsyncChunkedByGroupSequence<Self, [Self.Element]>",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/input\/chunked(by:into:)-22nvr",
+                        "title" : "func chunked<Signal, Collected>(by: Signal, into: Collected.Type) -> AsyncChunksOfCountOrSignalSequence<Self, Collected, Signal>",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/input\/chunked(by:into:)-6c8g9",
+                        "title" : "func chunked<C, Collected>(by: AsyncTimerSequence<C>, into: Collected.Type) -> AsyncChunksOfCountOrSignalSequence<Self, Collected, AsyncTimerSequence<C>>",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/input\/chunked(into:by:)",
+                        "title" : "func chunked<Collected>(into: Collected.Type, by: (Self.Element, Self.Element) -> Bool) -> AsyncChunkedByGroupSequence<Self, Collected>",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/input\/chunked(into:on:)",
+                        "title" : "func chunked<Subject, Collected>(into: Collected.Type, on: (Self.Element) -> Subject) -> AsyncChunkedOnProjectionSequence<Self, Subject, Collected>",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/input\/chunked(on:)",
+                        "title" : "func chunked<Subject>(on: (Self.Element) -> Subject) -> AsyncChunkedOnProjectionSequence<Self, Subject, [Self.Element]>",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/input\/chunks(ofcount:)",
+                        "title" : "func chunks(ofCount: Int) -> AsyncChunksOfCountSequence<Self, [Self.Element]>",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/input\/chunks(ofcount:into:)",
+                        "title" : "func chunks<Collected>(ofCount: Int, into: Collected.Type) -> AsyncChunksOfCountSequence<Self, Collected>",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/input\/chunks(ofcount:or:)-3aq3",
+                        "title" : "func chunks<Signal>(ofCount: Int, or: Signal) -> AsyncChunksOfCountOrSignalSequence<Self, [Self.Element], Signal>",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/input\/chunks(ofcount:or:)-516tz",
+                        "title" : "func chunks<C>(ofCount: Int, or: AsyncTimerSequence<C>) -> AsyncChunksOfCountOrSignalSequence<Self, [Self.Element], AsyncTimerSequence<C>>",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/input\/chunks(ofcount:or:into:)-9jp3h",
+                        "title" : "func chunks<Signal, Collected>(ofCount: Int, or: Signal, into: Collected.Type) -> AsyncChunksOfCountOrSignalSequence<Self, Collected, Signal>",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/input\/chunks(ofcount:or:into:)-9rght",
+                        "title" : "func chunks<C, Collected>(ofCount: Int, or: AsyncTimerSequence<C>, into: Collected.Type) -> AsyncChunksOfCountOrSignalSequence<Self, Collected, AsyncTimerSequence<C>>",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/input\/compactmap(_:)-3ff49",
+                        "title" : "func compactMap<ElementOfResult>((Self.Element) async -> ElementOfResult?) -> AsyncCompactMapSequence<Self, ElementOfResult>",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/input\/compactmap(_:)-7kvqd",
+                        "title" : "func compactMap<ElementOfResult>((Self.Element) async throws -> ElementOfResult?) -> AsyncThrowingCompactMapSequence<Self, ElementOfResult>",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/input\/compacted()",
+                        "title" : "func compacted<Unwrapped>() -> AsyncCompactedSequence<Self, Unwrapped>",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/input\/contains(_:)",
+                        "title" : "func contains(Self.Element) async rethrows -> Bool",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/input\/contains(where:)",
+                        "title" : "func contains(where: (Self.Element) async throws -> Bool) async rethrows -> Bool",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/input\/debounce(for:tolerance:)",
+                        "title" : "func debounce(for: Duration, tolerance: Duration?) -> AsyncDebounceSequence<Self, ContinuousClock>",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/input\/debounce(for:tolerance:clock:)",
+                        "title" : "func debounce<C>(for: C.Instant.Duration, tolerance: C.Instant.Duration?, clock: C) -> AsyncDebounceSequence<Self, C>",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/input\/drop(while:)",
+                        "title" : "func drop(while: (Self.Element) async -> Bool) -> AsyncDropWhileSequence<Self>",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/input\/dropfirst(_:)",
+                        "title" : "func dropFirst(Int) -> AsyncDropFirstSequence<Self>",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/input\/filter(_:)",
+                        "title" : "func filter((Self.Element) async -> Bool) -> AsyncFilterSequence<Self>",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/input\/first(where:)",
+                        "title" : "func first(where: (Self.Element) async throws -> Bool) async rethrows -> Self.Element?",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/input\/flatmap(_:)-5bc5v",
+                        "title" : "func flatMap<SegmentOfResult>((Self.Element) async throws -> SegmentOfResult) -> AsyncThrowingFlatMapSequence<Self, SegmentOfResult>",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/input\/flatmap(_:)-6vkh9",
+                        "title" : "func flatMap<SegmentOfResult>((Self.Element) async -> SegmentOfResult) -> AsyncFlatMapSequence<Self, SegmentOfResult>",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/input\/interspersed(with:)",
+                        "title" : "func interspersed(with: Self.Element) -> AsyncInterspersedSequence<Self>",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/input\/map(_:)-4c7an",
+                        "title" : "func map<Transformed>((Self.Element) async -> Transformed) -> AsyncMapSequence<Self, Transformed>",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/input\/map(_:)-70man",
+                        "title" : "func map<Transformed>((Self.Element) async throws -> Transformed) -> AsyncThrowingMapSequence<Self, Transformed>",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/input\/max()",
+                        "title" : "func max() async rethrows -> Self.Element?",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/input\/max(by:)",
+                        "title" : "func max(by: (Self.Element, Self.Element) async throws -> Bool) async rethrows -> Self.Element?",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/input\/min()",
+                        "title" : "func min() async rethrows -> Self.Element?",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/input\/min(by:)",
+                        "title" : "func min(by: (Self.Element, Self.Element) async throws -> Bool) async rethrows -> Self.Element?",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/input\/prefix(_:)",
+                        "title" : "func prefix(Int) -> AsyncPrefixSequence<Self>",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/input\/prefix(while:)",
+                        "title" : "func prefix(while: (Self.Element) async -> Bool) rethrows -> AsyncPrefixWhileSequence<Self>",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/input\/reduce(_:_:)",
+                        "title" : "func reduce<Result>(Result, (Result, Self.Element) async throws -> Result) async rethrows -> Result",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/input\/reduce(into:_:)",
+                        "title" : "func reduce<Result>(into: Result, (inout Result, Self.Element) async throws -> Void) async rethrows -> Result",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/input\/reductions(_:)",
+                        "title" : "func reductions((Self.Element, Self.Element) async -> Self.Element) -> AsyncInclusiveReductionsSequence<Self>",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/input\/reductions(_:_:)-1cms",
+                        "title" : "func reductions<Result>(Result, (Result, Self.Element) async throws -> Result) -> AsyncThrowingExclusiveReductionsSequence<Self, Result>",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/input\/reductions(_:_:)-306o5",
+                        "title" : "func reductions<Result>(Result, (Result, Self.Element) async -> Result) -> AsyncExclusiveReductionsSequence<Self, Result>",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/input\/reductions(into:_:)-5y2na",
+                        "title" : "func reductions<Result>(into: Result, (inout Result, Self.Element) async throws -> Void) -> AsyncThrowingExclusiveReductionsSequence<Self, Result>",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/input\/reductions(into:_:)-pfg9",
+                        "title" : "func reductions<Result>(into: Result, (inout Result, Self.Element) async -> Void) -> AsyncExclusiveReductionsSequence<Self, Result>",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/input\/removeduplicates()",
+                        "title" : "func removeDuplicates() -> AsyncRemoveDuplicatesSequence<Self>",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/input\/removeduplicates(by:)",
+                        "title" : "func removeDuplicates(by: (Self.Element, Self.Element) async -> Bool) -> AsyncRemoveDuplicatesSequence<Self>",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/input\/throttle(for:clock:latest:)",
+                        "title" : "func throttle<C>(for: C.Instant.Duration, clock: C, latest: Bool) -> AsyncThrottleSequence<Self, C, Self.Element>",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/input\/throttle(for:clock:reducing:)",
+                        "title" : "func throttle<C, Reduced>(for: C.Instant.Duration, clock: C, reducing: (Reduced?, Self.Element) async -> Reduced) -> AsyncThrottleSequence<Self, C, Reduced>",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/input\/throttle(for:latest:)",
+                        "title" : "func throttle(for: Duration, latest: Bool) -> AsyncThrottleSequence<Self, ContinuousClock, Self.Element>",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/input\/throttle(for:reducing:)",
+                        "title" : "func throttle<Reduced>(for: Duration, reducing: (Reduced?, Self.Element) async -> Reduced) -> AsyncThrottleSequence<Self, ContinuousClock, Reduced>",
+                        "type" : "method"
+                      }
+                    ],
+                    "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/input\/asyncsequence-implementations",
+                    "title" : "AsyncSequence Implementations",
+                    "type" : "symbol"
+                  }
+                ],
+                "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/input",
+                "title" : "AsyncSequenceValidationDiagram.Input",
+                "type" : "struct"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/inputlist\/endindex",
+                    "title" : "var endIndex: Int",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/inputlist\/startindex",
+                    "title" : "var startIndex: Int",
+                    "type" : "property"
+                  },
+                  {
+                    "title" : "Subscripts",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/inputlist\/subscript(_:)-3wn55",
+                    "title" : "subscript(Int) -> AsyncSequenceValidationDiagram.Input",
+                    "type" : "subscript"
+                  },
+                  {
+                    "title" : "Default Implementations",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Instance Properties",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/inputlist\/last",
+                        "title" : "var last: Self.Element?",
+                        "type" : "property"
+                      },
+                      {
+                        "title" : "Instance Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/inputlist\/difference(from:by:)",
+                        "title" : "func difference<C>(from: C, by: (C.Element, Self.Element) -> Bool) -> CollectionDifference<Self.Element>",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/inputlist\/droplast(_:)",
+                        "title" : "func dropLast(Int) -> Self.SubSequence",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/inputlist\/formindex(before:)",
+                        "title" : "func formIndex(before: inout Self.Index)",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/inputlist\/last(where:)",
+                        "title" : "func last(where: (Self.Element) throws -> Bool) rethrows -> Self.Element?",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/inputlist\/lastindex(where:)",
+                        "title" : "func lastIndex(where: (Self.Element) throws -> Bool) rethrows -> Self.Index?",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/inputlist\/reversed()",
+                        "title" : "func reversed() -> ReversedCollection<Self>",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/inputlist\/suffix(_:)",
+                        "title" : "func suffix(Int) -> Self.SubSequence",
+                        "type" : "method"
+                      }
+                    ],
+                    "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/inputlist\/bidirectionalcollection-implementations",
+                    "title" : "BidirectionalCollection Implementations",
+                    "type" : "symbol"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Instance Properties",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/inputlist\/count",
+                        "title" : "var count: Int",
+                        "type" : "property"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/inputlist\/first",
+                        "title" : "var first: Self.Element?",
+                        "type" : "property"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/inputlist\/isempty",
+                        "title" : "var isEmpty: Bool",
+                        "type" : "property"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/inputlist\/underestimatedcount-naqj",
+                        "title" : "var underestimatedCount: Int",
+                        "type" : "property"
+                      },
+                      {
+                        "title" : "Instance Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/inputlist\/drop(while:)",
+                        "title" : "func drop(while: (Self.Element) throws -> Bool) rethrows -> Self.SubSequence",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/inputlist\/dropfirst(_:)",
+                        "title" : "func dropFirst(Int) -> Self.SubSequence",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/inputlist\/firstindex(where:)",
+                        "title" : "func firstIndex(where: (Self.Element) throws -> Bool) rethrows -> Self.Index?",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/inputlist\/formindex(_:offsetby:)",
+                        "title" : "func formIndex(inout Self.Index, offsetBy: Int)",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/inputlist\/formindex(_:offsetby:limitedby:)",
+                        "title" : "func formIndex(inout Self.Index, offsetBy: Int, limitedBy: Self.Index) -> Bool",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/inputlist\/formindex(after:)",
+                        "title" : "func formIndex(after: inout Self.Index)",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/inputlist\/makeiterator()",
+                        "title" : "func makeIterator() -> IndexingIterator<Self>",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/inputlist\/map(_:)-7rc59",
+                        "title" : "func map<T>((Self.Element) throws -> T) rethrows -> [T]",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/inputlist\/prefix(_:)",
+                        "title" : "func prefix(Int) -> Self.SubSequence",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/inputlist\/prefix(through:)",
+                        "title" : "func prefix(through: Self.Index) -> Self.SubSequence",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/inputlist\/prefix(upto:)",
+                        "title" : "func prefix(upTo: Self.Index) -> Self.SubSequence",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/inputlist\/prefix(while:)",
+                        "title" : "func prefix(while: (Self.Element) throws -> Bool) rethrows -> Self.SubSequence",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/inputlist\/randomelement()",
+                        "title" : "func randomElement() -> Self.Element?",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/inputlist\/randomelement(using:)",
+                        "title" : "func randomElement<T>(using: inout T) -> Self.Element?",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/inputlist\/split(maxsplits:omittingemptysubsequences:whereseparator:)",
+                        "title" : "func split(maxSplits: Int, omittingEmptySubsequences: Bool, whereSeparator: (Self.Element) throws -> Bool) rethrows -> [Self.SubSequence]",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/inputlist\/suffix(from:)",
+                        "title" : "func suffix(from: Self.Index) -> Self.SubSequence",
+                        "type" : "method"
+                      },
+                      {
+                        "title" : "Subscripts",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/inputlist\/subscript(_:)-1bswi",
+                        "title" : "subscript((UnboundedRange_) -> ()) -> Self.SubSequence",
+                        "type" : "subscript"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/inputlist\/subscript(_:)-5zw9o",
+                        "title" : "subscript<R>(R) -> Self.SubSequence",
+                        "type" : "subscript"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/inputlist\/subscript(_:)-gse5",
+                        "title" : "subscript(Range<Self.Index>) -> Slice<Self>",
+                        "type" : "subscript"
+                      }
+                    ],
+                    "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/inputlist\/collection-implementations",
+                    "title" : "Collection Implementations",
+                    "type" : "symbol"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Instance Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/inputlist\/index(_:offsetby:limitedby:)",
+                        "title" : "func index(Self.Index, offsetBy: Int, limitedBy: Self.Index) -> Self.Index?",
+                        "type" : "method"
+                      }
+                    ],
+                    "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/inputlist\/randomaccesscollection-implementations",
+                    "title" : "RandomAccessCollection Implementations",
+                    "type" : "symbol"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Instance Properties",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/inputlist\/async",
+                        "title" : "var async: AsyncLazySequence<Self>",
+                        "type" : "property"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/inputlist\/lazy",
+                        "title" : "var lazy: LazySequence<Self>",
+                        "type" : "property"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/inputlist\/underestimatedcount-40x2p",
+                        "title" : "var underestimatedCount: Int",
+                        "type" : "property"
+                      },
+                      {
+                        "title" : "Instance Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/inputlist\/allsatisfy(_:)",
+                        "title" : "func allSatisfy((Self.Element) throws -> Bool) rethrows -> Bool",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/inputlist\/compactmap(_:)",
+                        "title" : "func compactMap<ElementOfResult>((Self.Element) throws -> ElementOfResult?) rethrows -> [ElementOfResult]",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/inputlist\/contains(where:)",
+                        "title" : "func contains(where: (Self.Element) throws -> Bool) rethrows -> Bool",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/inputlist\/elementsequal(_:by:)",
+                        "title" : "func elementsEqual<OtherSequence>(OtherSequence, by: (Self.Element, OtherSequence.Element) throws -> Bool) rethrows -> Bool",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/inputlist\/enumerated()",
+                        "title" : "func enumerated() -> EnumeratedSequence<Self>",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/inputlist\/filter(_:)",
+                        "title" : "func filter((Self.Element) throws -> Bool) rethrows -> [Self.Element]",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/inputlist\/first(where:)",
+                        "title" : "func first(where: (Self.Element) throws -> Bool) rethrows -> Self.Element?",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/inputlist\/flatmap(_:)-4w297",
+                        "title" : "func flatMap<ElementOfResult>((Self.Element) throws -> ElementOfResult?) rethrows -> [ElementOfResult]",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/inputlist\/flatmap(_:)-krcg",
+                        "title" : "func flatMap<SegmentOfResult>((Self.Element) throws -> SegmentOfResult) rethrows -> [SegmentOfResult.Element]",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/inputlist\/foreach(_:)",
+                        "title" : "func forEach((Self.Element) throws -> Void) rethrows",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/inputlist\/lexicographicallyprecedes(_:by:)",
+                        "title" : "func lexicographicallyPrecedes<OtherSequence>(OtherSequence, by: (Self.Element, Self.Element) throws -> Bool) rethrows -> Bool",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/inputlist\/map(_:)-1oh5g",
+                        "title" : "func map<T>((Self.Element) throws -> T) rethrows -> [T]",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/inputlist\/max(by:)",
+                        "title" : "func max(by: (Self.Element, Self.Element) throws -> Bool) rethrows -> Self.Element?",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/inputlist\/min(by:)",
+                        "title" : "func min(by: (Self.Element, Self.Element) throws -> Bool) rethrows -> Self.Element?",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/inputlist\/reduce(_:_:)",
+                        "title" : "func reduce<Result>(Result, (Result, Self.Element) throws -> Result) rethrows -> Result",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/inputlist\/reduce(into:_:)",
+                        "title" : "func reduce<Result>(into: Result, (inout Result, Self.Element) throws -> ()) rethrows -> Result",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/inputlist\/shuffled()",
+                        "title" : "func shuffled() -> [Self.Element]",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/inputlist\/shuffled(using:)",
+                        "title" : "func shuffled<T>(using: inout T) -> [Self.Element]",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/inputlist\/sorted(by:)",
+                        "title" : "func sorted(by: (Self.Element, Self.Element) throws -> Bool) rethrows -> [Self.Element]",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/inputlist\/starts(with:by:)",
+                        "title" : "func starts<PossiblePrefix>(with: PossiblePrefix, by: (Self.Element, PossiblePrefix.Element) throws -> Bool) rethrows -> Bool",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/inputlist\/withcontiguousstorageifavailable(_:)",
+                        "title" : "func withContiguousStorageIfAvailable<R>((UnsafeBufferPointer<Self.Element>) throws -> R) rethrows -> R?",
+                        "type" : "method"
+                      }
+                    ],
+                    "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/inputlist\/sequence-implementations",
+                    "title" : "Sequence Implementations",
+                    "type" : "symbol"
+                  }
+                ],
+                "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/inputlist",
+                "title" : "AsyncSequenceValidationDiagram.InputList",
+                "type" : "struct"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/specification\/location",
+                    "title" : "let location: SourceLocation",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/specification\/specification",
+                    "title" : "let specification: String",
+                    "type" : "property"
+                  }
+                ],
+                "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/specification",
+                "title" : "AsyncSequenceValidationDiagram.Specification",
+                "type" : "struct"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/clock-swift.property",
+                "title" : "var clock: AsyncSequenceValidationDiagram.Clock",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/inputs",
+                "title" : "var inputs: AsyncSequenceValidationDiagram.InputList",
+                "type" : "property"
+              },
+              {
+                "title" : "Type Methods",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/buildblock(_:_:)",
+                "title" : "static func buildBlock<Operation>(AsyncSequenceValidationDiagram.Component<Operation>, AsyncSequenceValidationDiagram.Component<String>) -> some AsyncSequenceValidationTest",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/buildblock(_:_:_:)",
+                "title" : "static func buildBlock<Operation>(AsyncSequenceValidationDiagram.Component<String>, AsyncSequenceValidationDiagram.Component<Operation>, AsyncSequenceValidationDiagram.Component<String>) -> some AsyncSequenceValidationTest",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/buildblock(_:_:_:_:)",
+                "title" : "static func buildBlock<Operation>(AsyncSequenceValidationDiagram.Component<String>, AsyncSequenceValidationDiagram.Component<String>, AsyncSequenceValidationDiagram.Component<Operation>, AsyncSequenceValidationDiagram.Component<String>) -> some AsyncSequenceValidationTest",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/buildblock(_:_:_:_:_:)",
+                "title" : "static func buildBlock<Operation>(AsyncSequenceValidationDiagram.Component<String>, AsyncSequenceValidationDiagram.Component<String>, AsyncSequenceValidationDiagram.Component<String>, AsyncSequenceValidationDiagram.Component<Operation>, AsyncSequenceValidationDiagram.Component<String>) -> some AsyncSequenceValidationTest",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/buildblock(_:_:_:_:_:_:)",
+                "title" : "static func buildBlock<Operation>(AsyncSequenceValidationDiagram.Component<String>, AsyncSequenceValidationDiagram.Component<String>, AsyncSequenceValidationDiagram.Component<String>, AsyncSequenceValidationDiagram.Component<String>, AsyncSequenceValidationDiagram.Component<Operation>, AsyncSequenceValidationDiagram.Component<String>) -> some AsyncSequenceValidationTest",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/buildexpression(_:file:line:)-1jjoe",
+                "title" : "static func buildExpression<S>(S, file: StaticString, line: UInt) -> AsyncSequenceValidationDiagram.Component<S>",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/buildexpression(_:file:line:)-4tfnk",
+                "title" : "static func buildExpression(String, file: StaticString, line: UInt) -> AsyncSequenceValidationDiagram.Component<String>",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/buildpartialblock(accumulated:next:)-5lhll",
+                "title" : "static func buildPartialBlock<Operation>(accumulated: AsyncSequenceValidationDiagram.AccumulatedInputsWithOperation<Operation>, next: AsyncSequenceValidationDiagram.Component<String>) -> some AsyncSequenceValidationTest",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/buildpartialblock(accumulated:next:)-6rmtz",
+                "title" : "static func buildPartialBlock<Operation>(accumulated: AsyncSequenceValidationDiagram.AccumulatedInputs, next: AsyncSequenceValidationDiagram.Component<Operation>) -> AsyncSequenceValidationDiagram.AccumulatedInputsWithOperation<Operation>",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/buildpartialblock(accumulated:next:)-7xdhl",
+                "title" : "static func buildPartialBlock(accumulated: AsyncSequenceValidationDiagram.AccumulatedInputs, next: AsyncSequenceValidationDiagram.Component<String>) -> AsyncSequenceValidationDiagram.AccumulatedInputs",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/buildpartialblock(first:)-7726a",
+                "title" : "static func buildPartialBlock<Operation>(first: AsyncSequenceValidationDiagram.Component<Operation>) -> AsyncSequenceValidationDiagram.AccumulatedInputsWithOperation<Operation>",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/buildpartialblock(first:)-7miax",
+                "title" : "static func buildPartialBlock(first: AsyncSequenceValidationDiagram.Component<String>) -> AsyncSequenceValidationDiagram.AccumulatedInputs",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/test(_:)",
+                "title" : "static func test<Test>((AsyncSequenceValidationDiagram) -> Test) throws -> (AsyncSequenceValidationDiagram.ExpectationResult, [AsyncSequenceValidationDiagram.ExpectationFailure])",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/test(theme:_:)",
+                "title" : "static func test<Test, Theme>(theme: Theme, (AsyncSequenceValidationDiagram) -> Test) throws -> (AsyncSequenceValidationDiagram.ExpectationResult, [AsyncSequenceValidationDiagram.ExpectationFailure])",
+                "type" : "method"
+              },
+              {
+                "title" : "Enumerations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Enumeration Cases",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/token\/begingroup",
+                    "title" : "case beginGroup",
+                    "type" : "case"
+                  },
+                  {
+                    "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/token\/beginvalue",
+                    "title" : "case beginValue",
+                    "type" : "case"
+                  },
+                  {
+                    "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/token\/cancel",
+                    "title" : "case cancel",
+                    "type" : "case"
+                  },
+                  {
+                    "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/token\/delaynext",
+                    "title" : "case delayNext",
+                    "type" : "case"
+                  },
+                  {
+                    "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/token\/endgroup",
+                    "title" : "case endGroup",
+                    "type" : "case"
+                  },
+                  {
+                    "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/token\/endvalue",
+                    "title" : "case endValue",
+                    "type" : "case"
+                  },
+                  {
+                    "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/token\/error",
+                    "title" : "case error",
+                    "type" : "case"
+                  },
+                  {
+                    "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/token\/finish",
+                    "title" : "case finish",
+                    "type" : "case"
+                  },
+                  {
+                    "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/token\/skip",
+                    "title" : "case skip",
+                    "type" : "case"
+                  },
+                  {
+                    "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/token\/step",
+                    "title" : "case step",
+                    "type" : "case"
+                  },
+                  {
+                    "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/token\/value(_:)",
+                    "title" : "case value(String)",
+                    "type" : "case"
+                  }
+                ],
+                "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram\/token",
+                "title" : "AsyncSequenceValidationDiagram.Token",
+                "type" : "enum"
+              }
+            ],
+            "path" : "\/documentation\/asyncsequencevalidation\/asyncsequencevalidationdiagram",
+            "title" : "AsyncSequenceValidationDiagram",
+            "type" : "struct"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/asyncsequencevalidation\/sourcelocation\/init(file:line:)",
+                "title" : "init(file: StaticString, line: UInt)",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/asyncsequencevalidation\/sourcelocation\/description",
+                "title" : "var description: String",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/asyncsequencevalidation\/sourcelocation\/file",
+                "title" : "var file: StaticString",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/asyncsequencevalidation\/sourcelocation\/line",
+                "title" : "var line: UInt",
+                "type" : "property"
+              }
+            ],
+            "path" : "\/documentation\/asyncsequencevalidation\/sourcelocation",
+            "title" : "SourceLocation",
+            "type" : "struct"
+          }
+        ],
+        "path" : "\/documentation\/asyncsequencevalidation",
+        "title" : "AsyncSequenceValidation",
+        "type" : "module"
+      }
+    ]
+  },
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 1,
+    "patch" : 0
+  }
+}
